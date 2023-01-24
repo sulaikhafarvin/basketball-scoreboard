@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #415a77;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: verdana;
+    color: #edf2f4;
+}
+
+#Home-section{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+    
+    
+}
+@font-face{
+    src: url("CursedTimerUlil.ttf");
+    font-family:CursedTimerUlil;
+    
+}
+#Home-points{
+    font-family:CursedTimerUlil;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #d90429;
+
+}
+
+.Home-points-container{
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 82px;
+    top: 125px;
+    background: #2b2d42;
+    margin-top: 45px;
+    text-align: center;
+
+}
+
+#Plus-one-button-home{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    background:#415a77;
+    font-family:CursedTimerUlil;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#edf2f4; 
+    box-sizing: border-box;
+    border: 2px solid #edf2f4;
+    border-radius: 5px;
+    margin-top: 36px;
+
+}
+#Plus-two-button-home{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 136px;
+    top: 271px;
+    background:#415a77;
+    font-family:CursedTimerUlil;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#edf2f4; 
+    box-sizing: border-box;
+    border: 2px solid #edf2f4;
+    border-radius: 5px;
+    margin-top: 36px;
+
+}
+#Plus-three-button-home{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 192px;
+    top: 271px;
+    background:#415a77;
+    font-family:CursedTimerUlil;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#edf2f4; 
+    box-sizing: border-box;
+    border: 2px solid #edf2f4;
+    border-radius: 5px;
+    margin-top: 36px;
+
+}
+
+#Guest-section{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 340px;
+    top: 68px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-shadow: 0px 0px 1px black;
+    
+}
+
+#Guest-points{
+    font-family:CursedTimerUlil;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+        
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #d90429;   
+
+}
+
+.Guest-points-container{
+    position: absolute;
+    width: 117px;
+    height: 120px;
+    left: 337px;
+    top: 125px;
+    background: #2b2d42;
+    margin-top:45px;
+    text-align: center;
+
+}
+
+#Plus-one-button-guest{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    background:#415a77;
+    font-family:CursedTimerUlil;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#edf2f4; 
+    box-sizing: border-box;
+    border: 2px solid #edf2f4;
+    border-radius: 5px;
+    margin-top: 36px;
+
+}
+#Plus-two-button-guest{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 271px;
+    background:#415a77;
+    font-family:CursedTimerUlil;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#edf2f4; 
+    box-sizing: border-box;
+    border: 2px solid #edf2f4;
+    border-radius: 5px;
+    margin-top: 36px;
+
+}
+#Plus-three-button-guest{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+    background:#415a77;
+    font-family:CursedTimerUlil;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color:#edf2f4; 
+    box-sizing: border-box;
+    border: 2px solid #edf2f4;
+    border-radius: 5px;
+    margin-top: 36px;
+
+}
+
+#reset-button{
+    position: absolute;
+    width: 65px;
+    height: 40px;
+    left: 255px;
+    top: 320px;
+    font-family:CursedTimerUlil; 
+    font-weight: bold;
+    background: #2b2d42;
+    box-sizing: border-box;
+    border: 2px solid #2b2d42;
+    border-radius: 5px;
+    color: #d90429; 
+    text-align: center;
+}
