@@ -11,6 +11,7 @@ body {
     justify-content: space-around;
     font-family: verdana;
     color: #edf2f4;
+    position: relative;
 }
 
 #Home-section{
